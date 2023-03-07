@@ -14,7 +14,7 @@ and therefore test your applications without having real instruments connected.
 You can select the PyVISA-sim backend using **@sim** when instantiating the
 visa Resource Manager:
 
-    >>> import visa
+    >>> import pyvisa
     >>> rm = visa.ResourceManager('@sim')
     >>> rm.list_resources()
     ('ASRL1::INSTR')
